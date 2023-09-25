@@ -1,7 +1,6 @@
 from datetime import date
 from os import getenv
 
-from dotenv import find_dotenv
 from fastapi import APIRouter, HTTPException
 from fastapi.security import APIKeyHeader
 
